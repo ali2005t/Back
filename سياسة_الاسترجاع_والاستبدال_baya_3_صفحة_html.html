@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>سياسة الاسترجاع والاستبدال — baya3</title>
+  <style>
+    :root{--bg:#f6f7fb;--card:#ffffff;--accent:#0b74de;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,\"Helvetica Neue\",Arial;line-height:1.6;margin:0;background:var(--bg);color:#111}
+    .container{max-width:900px;margin:36px auto;padding:20px}
+    .brand{display:flex;gap:16px;align-items:center}
+    .logo{width:84px;height:84px;flex:0 0 84px;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(11,116,222,0.12);background:#fff;display:flex;align-items:center;justify-content:center}
+    .logo img{width:100%;height:100%;object-fit:contain;border:0}
+    h1{font-size:22px;margin:0}
+    .meta{color:var(--muted);margin-top:6px;font-size:14px}
+    .card{background:var(--card);padding:22px;border-radius:12px;margin-top:18px;box-shadow:0 6px 20px rgba(16,24,40,0.06)}
+    .section{margin-bottom:16px}
+    .section h2{font-size:18px;margin:0 0 8px}
+    ul{padding-inline-start:20px;margin:8px 0}
+    li{margin:8px 0}
+    .note{background:#fffbea;border-left:4px solid #ffd54f;padding:12px;border-radius:8px;color:#5a4b00}
+    a.contact{color:var(--accent);text-decoration:none;font-weight:600}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    /* accordion */
+    .accordion .item{border-top:1px dashed #eef2f7;padding:12px 0}
+    .item button{width:100%;text-align:right;background:transparent;border:0;padding:8px 0;font-weight:700;cursor:pointer}
+    .item .content{max-height:0;overflow:hidden;transition:max-height .32s ease;padding-right:4px}
+    .item.open .content{max-height:1200px;margin-top:8px}
+    /* responsive */
+    @media (max-width:520px){.brand{gap:12px}.logo{width:64px;height:64px}}
+    /* print */
+    @media print{body{background:#fff} footer{display:none} .card{box-shadow:none}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="brand">
+      <div class="logo" aria-hidden="true">
+        <a href="https://ibb.co/V5tw3FK">
+          <img src="https://i.ibb.co/V5tw3FK/20250823-2009-Baya3-simple-compose-01k3byee7sebaspd0vqs6bcy52-1.png" alt="شعار متجر baya3" border="0">
+        </a>
+      </div>
+      <div>
+        <h1>بـيـاع — سياسة الاسترجاع والاستبدال</h1>
+        <div class="meta">آخر تحديث: فبراير 2025</div>
+      </div>
+    </header>
+
+    <article class="card" id="policy">
+      <p>نشكرك على التسوق من متجرنا. نحن نضمن حقك في استبدال أو استرجاع أي منتج وفق الشروط الموضحة أدناه، وندعوك لقراءة هذه السياسة بعناية.</p>
+
+      <div class="accordion" style="margin-top:12px">
+        <div class="item" id="item-1">
+          <button onclick="toggleSection(1)">أولاً: حالات الاسترجاع المقبولة</button>
+          <div class="content">
+            <p>يمكنك طلب استرجاع أو استبدال المنتج خلال <strong>14 يومًا</strong> من تاريخ الاستلام في الحالات التالية:</p>
+            <ul>
+              <li>إذا استلمت منتج مختلف عن طلبك.</li>
+              <li>إذا كان المنتج تالفًا أو به عيب تصنيع ولم يتم استخدامه.</li>
+              <li>إذا كان المنتج غير مطابق للوصف المعروض على الموقع.</li>
+            </ul>
+            <div class="note">
+              <strong>ملاحظة:</strong>
+              <ul>
+                <li>المنتجات المطبوعة خصيصًا (مثل التصميمات الخاصة أو المقاسات المحددة) لا يمكن استرجاعها أو استبدالها إلا في حالة وجود عيب واضح.</li>
+                <li>بالنسبة للملابس: يجب أن تكون البطاقة (التيكيت) مثبتة بالمنتج كما استلمتها.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" id="item-2">
+          <button onclick="toggleSection(2)">ثانيًا: تغيير الرأي أو المقاس</button>
+          <div class="content">
+            <ul>
+              <li>يمكنك إلغاء طلبك أو استرجاعه بشرط أن يكون المنتج بحالته الأصلية وبكامل تغليفه وملحقاته.</li>
+              <li>في حالة رغبتك في الاستبدال أو الاسترجاع بدون وجود عيب: يتحمل العميل مصاريف الشحن ذهابًا وإيابًا.</li>
+              <li>إذا كان الطرد مفتوحًا، يجب طلب الاسترجاع خلال <strong>7 أيام</strong> فقط.</li>
+              <li>في حالة اردت استرجاع المنتج بسبب المقاس او اللون مرفوض.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item" id="item-3">
+          <button onclick="toggleSection(3)">ثالثًا: المنتجات غير القابلة للإرجاع</button>
+          <div class="content">
+            <p>لا يمكن استرجاع أو استبدال:</p>
+            <ul>
+              <li>المنتجات الشخصية (مثل الملابس الداخلية أو المنتجات الصحية).</li>
+              <li>المنتجات سريعة التلف أو منتهية الصلاحية.</li>
+              <li>أي منتج تم فتحه واستخدامه لأسباب تتعلق بالحماية الصحية أو النظافة.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item" id="item-4">
+          <button onclick="toggleSection(4)">رابعًا: تكاليف الشحن</button>
+          <div class="content">
+            <ul>
+              <li>في حالة وجود عيب تصنيع أو خطأ في الطلب: تتحمل الشركة جميع تكاليف الشحن.</li>
+              <li>في حالة الاسترجاع أو الاستبدال بدون وجود عيب: يتحمل العميل تكاليف الشحن كاملة.</li>
+              <li>يحق للعميل فتح الشحنة ومعاينتها قبل الاستلام دون رسوم إضافية.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="item" id="item-5">
+          <button onclick="toggleSection(5)">للتواصل معنا</button>
+          <div class="content">
+            <p>اذا كانت لديك أي أسئلة حول سياسة الاسترجاع أو الاستبدال، يمكنك مراسلتنا عبر البريد الإلكتروني:</p>
+            <p><a class="contact" href="mailto:help.baya3@gmail.com">📧 help.baya3@gmail.com</a></p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        ملاحظة: عند الاسترجاع قد نطلب تحققًا إضافيًا لضمان حالة المنتج. تحتفظ baya3 بحق الأرجاع بحسب هذه السياسة.
+      </footer>
+    </article>
+  </main>
+
+  <script>
+    function toggleSection(n){
+      const el = document.getElementById('item-'+n);
+      if(!el) return;
+      el.classList.toggle('open');
+    }
+    // open first section by default
+    document.addEventListener('DOMContentLoaded',()=>{ toggleSection(1); });
+  </script>
+</body>
+</html>
